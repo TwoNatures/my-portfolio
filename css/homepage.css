@@ -101,4 +101,7 @@ body::-webkit-scrollbar{
     margin-top: 55px;
     padding: 12px;
     text-decoration: none;
+    color: var(--c-2);
+    box-shadow: 5px 5px 5px 0px #BDA368 inset;
+    filter: drop-shadow(3px 4px 5px #143427);
 }
