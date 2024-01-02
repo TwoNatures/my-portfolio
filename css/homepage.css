@@ -91,7 +91,7 @@ body::-webkit-scrollbar{
     flex-direction: column;
     align-items: center;
 }
-.contact i{
+.contact a{
     width: 69px;
     height: 69px;
     border-radius: 50%;
@@ -99,4 +99,6 @@ body::-webkit-scrollbar{
     box-shadow: 5px 5px 5px 0px #BDA368 inset;
     font-size: 45px;
     margin-top: 55px;
+    padding: 12px;
+    text-decoration: none;
 }
