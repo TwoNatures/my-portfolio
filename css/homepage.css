@@ -10,7 +10,9 @@ font-family: 'Noto Sans Thai Looped', sans-serif;*/
     --c-2: #2a5343;
     --c-3: rgba(35, 82, 62, 0.80);
     --c-4: #49765F;
+    --gold-1:#A88E55;
     --l-1: rgba(73, 118, 95, 0.28);
+
 }
 :root{
     --t-1: 30px;
@@ -35,13 +37,12 @@ body::-webkit-scrollbar{
     display: flex;
     height: 122px;
     width: auto;
-    border: 3px solid var(--l-1);
+    border: 3px solid var(--gold-1);
     align-items: center;
-    gap: 76px;
-}
-.navlinear{
-    background: linear-gradient(190deg, rgba(75,115,95,1) 0%, rgba(35,82,62,1) 37%, rgba(88,125,106,1) 100%);
-    border-radius: 50px;
+    gap: 60px;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .navigation{
     border: 5px solid var(--c-4);
@@ -53,6 +54,7 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: space-between;
     box-shadow: 3px 4px 5px 0px #143427;
+    border-radius: 50px;
 }
 .navigation a{
     text-decoration: none;
@@ -70,4 +72,31 @@ body::-webkit-scrollbar{
     width: 150px;
     height: 995px;
     background: var(--c-4);
+    border: 3px solid var(--gold-1);
+}
+.maincontent .middle{
+    width: 1208px;
+    height: 995px;
+    background: var(--c-1);
+    border: 3px solid var(--gold-1);
+}
+.maincontent .sidebar{
+    height: 995px;
+    width: 370px;
+    background: var(--c-2);
+    border: 3px solid var(--gold-1);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact i{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background: #A88E55;
+    box-shadow: 5px 5px 5px 0px #BDA368 inset;
+    font-size: 45px;
+    margin-top: 55px;
 }
